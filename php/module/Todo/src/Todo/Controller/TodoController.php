@@ -13,7 +13,7 @@ class TodoController extends AbstractActionController {
     }
 
     public function listAction() {
-        $data = array(array("date" => "23/12/2013", "tache" => "congé"), array("date" => "21/12/2013", "tache" => "congé"), array("date" => "21/12/2013", "tache" => "congé"), array("date" => "21/12/2013", "tache" => "congé"));
+        $data = array(array("date" => "23/12/2013", "tache" => "congé"), array("date" => "21/12/2013", "tache" => "congé"), array("date" => "21/12/2013", "tache" => "congé"), array("date" => "21/12/2013", "tache" => "congé"), array("date" => "13/12/2013", "tache" => "prout"));
 
         echo Json::encode($data);
         exit();
